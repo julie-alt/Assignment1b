@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Form</title>
+</head>
+
+<body>
+  <div>
+    <img src="https://seeklogo.com/images/A/altschool-africa-logo-4365C6B160-seeklogo.com.png" alt="AltSchool logo"
+      width="120">
+  </div>
+  <div>
+    <h1>Application Form</h1>
+    <h2>Kindly fill the form below</h2>
+    <h3>Personal Information</h3>
+  </div>
+
+  <div>
+    <form action="register" method="get" autocomplete="on">
+      <label for="Fname">First Name:</label><br>
+      <input autofocus type="text" id="Fname" name="Fname" placeholder="Enter First Name" required><br><br>
+
+      <label for="Lname">Last Name:</label><br>
+      <input type="text" id="Lname" name="Lname" placeholder="Enter Last Name" required><br><br>
+
+      <label for="gender">Gender:</label><br>
+      <select name="gender" id="gender" required>
+        <option value="" hidden>Select Gender</option>
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+      </select><br><br>
+
+      <label for="dob">Date of Birth:</label><br>
+      <input type="date" id="dob" name="dob" min="1973-01-01" max="2011-12-31" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter Email" required><br><br>
+
+      <label for="Edulevel">Educational Level</label><br>
+      <select name="Edulevel" id="Edulevel" required>
+        <option value="" hidden>Select Level of Education</option>
+        <option value="Bsc">Bsc</option>
+        <option value="Msc">Msc</option>
+        <option value="Dpl">Diploma</option>
+        <option value="PhD">Doctorate(PhD)</option>
+        <option value="secSch">High school / Secondary School</option>
+        <option value="UnderG">Undergraduate</option>
+        <option value="JnrSch">Junior / Middle School</option>
+        <option value="PG">Post Graduate</option>
+      </select>
+      <br><br>
+
+      <label for="country">Country:</label><br>
+      <input type="text" name="country" id="country" placeholder="Enter Country" required><br>
+      <br>
+
+      <label for="state">State / City of Residence:</label><br>
+      <input type="text" name="state" id="state" placeholder="Enter State of Residence" required><br><br>
+
+      <label for="Employment">Employment Status:</label><br>
+      <select name="Employment" id="Employment" required>
+        <option value="" hidden>Select Employment Status</option>
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+        <option value="self-employed">Self-employed</option>
+      </select><br><br>
+
+      <label for="phone">Phone Number:</label><br>
+      <input type="tel" name="phone" id="phone" placeholder="08012345678" required><br><br>
+
+      <label for="school">Choose School:</label><br>
+      <select name="school" id="school" required>
+        <option value="" hidden>Select School</option>
+        <option value="SOD">School of Data</option>
+        <option value="SOE">School of Engieering</option>
+        <option value="SOP">School of Product</option>
+        <option value="SCE">School of Creative Economy</option>
+        <option value="SOB">School of Business</option>
+      </select><br><br>
+
+      <label for="referral">How did you hear about us?</label><br>
+      <select name="referral" id="referral" required>
+        <option value="" hidden>Select Channel</option>
+        <option value="Whatsapp">Whatsapp</option>
+        <option value="facebook">Facebook</option>
+        <option value="X">X (twitter)</option>
+        <option value="linkedin">LinkedIn</option>
+        <option value="instagram">Instagram</option>
+        <option value="youtube">Youtube</option>
+        <option value="billboard">Billboard</option>
+        <option value="friend">Friend</option>
+        <option value="others">Others</option>
+      </select><br><br>
+
+      <label for="discountCode">Scholarship/Discount Code (Optional):</label><br>
+      <input type="text" name="discount code" id="discountCode"><br><br>
+
+      <p>
+        By clicking continue, I agree to <a href="">Terms of Use</a> and
+        acknowledge that I have read the <a href="">Privacy Policy.</a>
+      </p>
+
+      <input type="submit" value="Proceed">
+
+      <footer>
+        <p>Already have an account? <a href="">Sign In</a></p>
+      </footer>
+    </form>
+  </div>
+  <p>
+    Click
+    <a href="http://127.0.0.1:5500/index.html#section2" target="_self">here</a>
+    to go back to home page
+  </p>
+</body>
+
+</html>
